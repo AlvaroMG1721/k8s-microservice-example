@@ -14,9 +14,8 @@ import java.util.Date;
 public class ProductCommand {
     private String productName;
     private String vendorName;
-    private Integer productId;
+    private String productId;
     private Integer vendId;
     private Integer quantity;
-    private Double price;
     private Date expirationDate;
 }

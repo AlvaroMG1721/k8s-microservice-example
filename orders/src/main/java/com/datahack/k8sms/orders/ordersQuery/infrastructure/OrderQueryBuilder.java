@@ -13,7 +13,6 @@ class OrderQueryBuilder {
 
     private final PodamFactory podamFactory = new PodamFactoryImpl();
 
-
     OrderQuery build(OrderCommand eventBody) {
 
         //TODO get client and product Data from a master client info datasource and promo Query API

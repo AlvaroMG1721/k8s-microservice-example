@@ -25,16 +25,13 @@ public class ProductCommandEntity {
     private UUID id;
 
     @Column(name = "product_id")
-    private Integer productId;
+    private String productId;
 
     @Column(name = "vend_id")
     private Integer vendId;
 
     @Column(name = "quantity")
     private Integer quantity;
-
-    @Column(name = "price")
-    private Double price;
 
     @Column(name = "expiration_date")
     private Date expirationDate;

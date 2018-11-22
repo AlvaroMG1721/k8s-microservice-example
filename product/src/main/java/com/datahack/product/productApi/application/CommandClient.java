@@ -17,7 +17,7 @@ class CommandClient {
         this.commandServer = commandServer;
     }
 
-    ProductCommand createCommand(ProductCommand orderCommand){
-        return commandServer.createClientOrderCommand(orderCommand);
+    ProductCommand createCommand(ProductCommand productCommand){
+        return commandServer.createClientOrderCommand(productCommand);
     }
 }

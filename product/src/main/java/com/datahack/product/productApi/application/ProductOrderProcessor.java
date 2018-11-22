@@ -14,8 +14,10 @@ public class ProductOrderProcessor {
         this.commandClient = commandClient;
     }
 
-    public ProductCommand processClientOrder(ProductCommand product) {
+    public ProductCommand processProductPost(ProductCommand product) {
         return commandClient.createCommand(product);
     }
+
+    public ProductCommand processProductGet()
 
 }
